@@ -1,0 +1,22 @@
+{
+    "name": "swiftotter/magento2-module-orderexport",
+    "description": "The OrderExport module description goes here.",
+    "require": {
+        "php": "^7|^8",
+        "magento/framework": ">=103"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SwiftOtter\\OrderExport\\": ""
+        }
+    }
+}
+
